@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+/*                Body               */
+body {
+    padding: 150px 50px 0px 50px;
+    font-family:'Times New Roman', Times, serif;
+}
+/*                /Body               */
+/*                Header             */
+.container__p{
+    height: 70px;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: bisque;
+    
+}
+/*                /Header            */
+
+/*                Nav                */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+
+}
+.logo {
+    cursor: pointer;
+    margin: 25px 10px 30px 30px;
+    font-size: 25px;
+    color: rgb(133, 121, 61);
+    font-family: 'Inter', sans-serif;
+}
+.logo:hover {
+    transform: scale(1.1);
+    transition: all 0.1s
+}
+.nav-menu{
+    display: flex;
+}
+.nav-menu-item > a {
+    text-decoration: none;
+    color: rgb(133, 121, 61);
+    text-shadow: 2px 2px 0px rgba(245, 193, 144, 0.6);
+    font-family: 'Inter', sans-serif;
+    width: max-content;
+    font-size: 14px;  
+}
+.nav-menu-item {
+    margin: 20px 10px 25px 10px;
+    padding: 10px 10px 0px 10px;
+    border-radius: 5px;
+}
+.nav-menu-item:hover {
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+}
+/*    Menu junto al  Sub-Menu        */
+.nav-menu-submenu-item a {
+    text-decoration: none;
+    color: rgb(133, 121, 61);
+    text-shadow: 2px 2px 0px rgba(245, 193, 144, 0.6);
+    font-family: 'Inter', sans-serif;
+    width: max-content;
+    font-size: 14px;
+}
+.nav-menu-submenu-item {
+    margin: 20px 10px 25px 10px;
+    padding: 10px 10px 0px 10px;
+}
+.nav-menu-submenu-item:hover{
+    background-color: rgb(255, 255, 255);
+    transition: 0.5s;
+    border: solid 1px color antiquewhite;
+}
+.sub-menu > li:hover {
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+.sub-menu {
+    display: none;
+}
+.nav-menu-submenu-item:hover .sub-menu{
+    display: inline;
+}
+.energia-solar {
+    padding: 10px 10px 5px 20px;
+}
+.energia-hidraulica {
+    padding: 10px 10px 5px 20px;
+    
+}
+.energia-eolica {
+    padding: 10px 10px 5px 20px;
+}
+.sub-menu > li > a {
+    font-size: 15px;
+}
+
+/*      /Sub-Menu        */
+a > .fa-solid.fa-house {
+    margin: 30px 10px 25px 10px;
+    color: rgb(121, 109, 57);
+    font-size: 16px; 
+}
+a > .fa-solid.fa-house:hover {
+    transform: scale(1.4);
+    transition: all 0.3s;
+}
+/*                /Nav               */
+
+
